@@ -3,7 +3,7 @@
 Selamat datang di **GoToko.id**, aplikasi e-commerce berbasis React Native & Expo.  
 Proyek ini dibuat untuk **menunjukkan tampilan antarmuka (UI) aplikasi** secara responsif dan user-friendly.  
 
-⚠️ Catatan: Semua tampilan bersifat statis. **Belum terhubung ke database atau backend**. Data produk, notifikasi, profil, dan keranjang hanyalah contoh untuk visualisasi UI saja.
+⚠️ Catatan: Semua tampilan bersifat statis. **Belum terhubung ke database**. Data produk, notifikasi, profil, dan keranjang hanyalah contoh untuk visualisasi UI saja.
 
 ---
 
