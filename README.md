@@ -1,50 +1,78 @@
-# Welcome to your Expo app 👋
+# GoToko.id - E-Commerce App (UI Only)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Selamat datang di **GoToko.id**, aplikasi e-commerce berbasis React Native & Expo.  
+Proyek ini dibuat untuk **menunjukkan tampilan antarmuka (UI) aplikasi** secara responsif dan user-friendly.  
 
-## Get started
+⚠️ Catatan: Semua tampilan bersifat statis. **Belum terhubung ke database atau backend**. Data produk, notifikasi, profil, dan keranjang hanyalah contoh untuk visualisasi UI saja.
 
-1. Install dependencies
+---
 
+## Fitur UI yang telah dibuat
+
+1. **Home Screen**
+   - Header dengan logo GoToko.id
+   - Banner promosi
+   - Kategori produk dengan ikon
+   - Produk unggulan dengan tombol beli dan keranjang
+   - Responsif dan mudah digunakan
+
+2. **Notification Screen**
+   - Header konsisten dengan Home/Explore
+   - Daftar notifikasi dengan ikon berbeda
+   - Card notifikasi menampilkan judul, pesan, dan waktu
+   - Hanya tampilan UI, tidak ada interaksi backend
+
+3. **Cart Screen**
+   - Tampilan produk di keranjang
+   - Checkbox untuk memilih produk
+   - Quantity increment/decrement
+   - Total harga dan jumlah barang
+   - Hanya UI, belum terhubung sistem pembayaran
+
+4. **Profile Screen**
+   - Informasi profil pengguna dengan foto bulat
+   - Order Status: Belum Bayar, Dikemas, Dikirim, Penilaian
+   - Menu akun: alamat, metode pembayaran, voucher, logout
+   - Semua status & menu hanya tampilan statis
+
+---
+
+## Teknologi yang Digunakan
+
+- **React Native** & **Expo**
+- **TypeScript** untuk tipe data
+- **@expo/vector-icons** untuk ikon
+- Styling menggunakan **StyleSheet** React Native
+
+---
+
+## Catatan Penggunaan
+
+- Semua data masih **hardcoded**, seperti produk, notifikasi, dan info profil.  
+- UI ini bisa digunakan sebagai **prototype atau referensi desain**.  
+- Belum ada integrasi **API, database, atau sistem autentikasi**.
+
+---
+
+## Screenshot / Tampilan UI
+
+*(Tambahkan screenshot dari masing-masing screen Home, Notification, Cart, Profile jika tersedia)*
+
+---
+
+## Cara Menjalankan
+
+1. Clone repositori:
    ```bash
+   git clone https://github.com/DendiPratamaRiawan/GoTokoApp-UI-React-Native-Expo.git
+
+2. Masuk ke folder project:
+   cd GoTokoUI
+
+3. Install dependencies:
    npm install
-   ```
 
-2. Start the app
+4. Jalankan:
+   npm start
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+"NGODING AJA DULU, BISA NYA BELAKANGAN"
