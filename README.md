@@ -67,12 +67,15 @@ Proyek ini dibuat untuk **menunjukkan tampilan antarmuka (UI) aplikasi** secara 
    git clone https://github.com/DendiPratamaRiawan/GoTokoApp-UI-React-Native-Expo.git
 
 2. Masuk ke folder project:
+   ```bash
    cd GoTokoUI
 
-3. Install dependencies:
+4. Install dependencies:
+   ```bash
    npm install
 
-4. Jalankan:
+5. Jalankan:
+   ```bash
    npm start
 
 "NGODING AJA DULU, BISA NYA BELAKANGAN"
