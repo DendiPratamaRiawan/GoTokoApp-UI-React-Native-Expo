@@ -1,3 +1,11 @@
+// ============================================
+// TUGAS PROJECT : PERANGKAT MOBILE I
+// Nama          : Dendi Pratama Riawan
+// Github        : https://github.com/DendiPratamaRiawan
+// Linkedin      : www.linkedin.com/in/dendipratamar
+// UNIVERSITAS FALETEHAN
+// ============================================
+
 import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
